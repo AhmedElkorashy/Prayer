@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+@import "tailwindcss";
+html {
+  direction: rtl;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+.container {
+  border: 1px solid #d7d7d74e;
+  border-radius: 10px;
+  /* margin-right: 15%; */
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 1.875rem 1.5625rem;
+}
+select {
+  /* width: 15.625rem; */
+  border-radius: 0.3125rem;
+  -webkit-border-radius: 0.3125rem;
+  -moz-border-radius: 0.3125rem;
+  -ms-border-radius: 0.3125rem;
+  -o-border-radius: 0.3125rem;
+  outline: none;
+  padding: 0.125rem 0.625rem;
+  color: white;
+  background-color: #a54f3a;
+  font-size: 1.375rem;
+  /* margin-top: .625rem; */
+  /* margin-bottom: 0.3125rem; */
+}
+.date {
+  /* width: 15.625rem; */
+  margin: 0;
+  height: 100%;
+}
+.top-section {
+    /* background-color: red; */
+    border-bottom: 1px solid #d7d7d74e;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  h3 {
+    font-size: 2.25rem;
+    color: white;
+  }
+  h4{
+    font-size: 2.25rem;
+    color: white;
+  }
+}
+.prayer{
+    background-color: #a54f3a;
+    margin-bottom: 10px;
+    padding: 5px 25px;
+    border-radius: 5px;
+    border: 1px solid #d7d7d74e;
+}
+section{
+  min-height: 100vh;
+
+}
