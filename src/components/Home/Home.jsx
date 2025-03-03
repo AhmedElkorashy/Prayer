@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <>
       <section className="bg-[url(./assets/bg.jpg)]  bg-center bg-cover flex items-center justify-center">
-        <div className="container md:w-[50%] w-[100%] mx-auto bg-[#332a224e] backdrop-sepia-0 ">
+        <div className="container md:w-[50%] w-[95%] mx-auto bg-[#332a224e] backdrop-sepia-0 ">
           <div className="top-section flex justify-around items-center flex-wrap">
             <div className="city md:w-[50%] w-full">
               <h3>المدينة</h3>
